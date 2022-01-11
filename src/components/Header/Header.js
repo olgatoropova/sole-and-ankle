@@ -23,6 +23,7 @@ const Header = () => {
           <NavLink href="/kids">Kids</NavLink>
           <NavLink href="/collections">Collections</NavLink>
         </Nav>
+        <Side />
       </MainHeader>
     </header>
   );
@@ -40,7 +41,6 @@ const Nav = styled.nav`
   display: flex;
   gap: 48px;
   margin: 0px 48px;
-  flex: 4;
 `;
 
 const Side = styled.div`
